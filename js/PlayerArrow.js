@@ -60,12 +60,12 @@ class PlayerArrow {
     
     pop();
 
-    remove(index); {
+    /*remove(index); {
     this.isRemoved = true;
     Matter.World.remove(world, this.body)
     delete playerArrows[index];
 
-    }
+    }*/
 
 
     //optional code to add trajectory to the arrow

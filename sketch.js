@@ -8,6 +8,7 @@ var canvas,baseimage,playerimage;
 var palyer, playerBase, playerArcher;
 var playerArrows = [];
 var board1, board2;
+var numberOfArrows = 10;
 
 function preload() {
   backgroundImg = loadImage("./assets/background.png");
@@ -90,7 +91,7 @@ playerArrows[i].body
 
 var board2collision = Matter.SAT.collides(
 board1.body,
-playerArrowss[i].body
+playerArrows[i].body
 );
 }
 }
